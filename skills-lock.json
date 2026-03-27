@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "skills": {
+    "pptx": {
+      "source": "b12consulting/skills",
+      "sourceType": "github",
+      "computedHash": "96268d03e4315dc47961355769b791a645b1bc3d80ddd08b675175c2c2f41191"
+    },
+    "yuma-design": {
+      "source": "b12consulting/skills",
+      "sourceType": "github",
+      "computedHash": "dc28f9d55b6906a57f2bab8a9f0ef99b6500d2eaef778bc261854d74b4e81872"
+    }
+  }
+}

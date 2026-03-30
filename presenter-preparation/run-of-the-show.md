@@ -140,29 +140,14 @@ Say it **every time** — it is the repetition that makes it feel woven in rathe
 
 ---
 
-### Block 5 — Use Cases: AI in Real SSDLC Workflows
-⏱️ **30 min** | Cumulative: 1:45 | Type: Theory + Live Demo
+### Block 5 — Spec-driven development
+⏱️ **30 min** | Cumulative: 1:45 | Type: Live Demo
 
-🎯 **Objective:** Show — not tell — AI in the SSDLC. Create "I have this exact problem" recognition for as many participants as possible.
+🎯 **Objective:** Show — not tell — spec-driven development and/or BMAD. Create "I have this exact problem" recognition for as many participants as possible.
 
-💬 **How to open:** Explicitly reference two or three pain points collected in Block 4. *"You mentioned [X]. Use Case 1 is exactly that."*
+💬 **How to open:** Explicitly reference two or three pain points collected in Block 4. *"You mentioned [X]. We can use spec-driven development to address that."*
 
-🔄 **Common thread moment (critical — repeat at every demo):** Close every use case demo with: *"Here's where you stay in the driver's seat — the model can't make this call."* This is meant to be said at the "human judgment moment" of every use case. Five use cases = five instances of the spoken anchor. The repetition is intentional.
-
-**Structure per use case (5 min each):**
-| Step | Duration |
-|---|---|
-| The problem (30 sec) | Name the pain. Connect to Block 4 if applicable. |
-| How AI helps (90 sec) | The approach and the tool — brief. |
-| Live or recorded demo (2 min) | Keep it real. A live terminal beats a screenshot. |
-| Human judgment moment (30 sec) | Drop the spoken anchor. |
-
-**The 5 use cases:**
-1. AI-assisted secure code review in the IDE (GitHub Copilot Chat)
-2. SAST in CI/CD as a quality gate (SonarQube / Semgrep)
-3. Spec-driven development for security-sensitive features (before/after side-by-side)
-4. Secret detection and dependency scanning (GitGuardian + Snyk)
-5. AI-assisted threat modeling — lightweight STRIDE prompt (Ollama option for restricted envs)
+🔄 **Common thread moment (critical — repeat at every demo):** Close major phases of the demo with: *"Here's where you stay in the driver's seat — the model can't make this call."* This is meant to be said at the "human judgment moment" of every use case. Five use cases = five instances of the spoken anchor. The repetition is intentional.
 
 ⚠️ **Trap to avoid:** Letting one demo run long and cutting another. Skipping the human judgment moment to save time — that's the thread, never drop it. Also: show AI getting something wrong at least once — it builds trust.
 

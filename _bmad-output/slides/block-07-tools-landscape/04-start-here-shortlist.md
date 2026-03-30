@@ -13,5 +13,3 @@ For Python/.NET developers in a consultancy context:
 *Five tools. That is a realistic starting point.*
 
 ---
-
-*Before the break: write down the one tool you want to use during the hands-on.*

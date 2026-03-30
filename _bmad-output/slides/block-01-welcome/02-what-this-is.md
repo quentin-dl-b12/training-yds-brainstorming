@@ -2,8 +2,9 @@
 
 **This is a workshop, not a lecture.**
 
-- No exam. No certification. No right answers.
-- Bring your skepticism. Use it.
+- Come ready to participate: question, experiment, and share what you observe.
+- Bring your skepticism — if something feels oversold, risky, or simply wrong for your context, say it out loud. That's part of the work.
+- Opinions differ. So does context. Both are welcome here.
 - Goal: leave with **one thing you want to try on Monday**
 
 **What we will not do:**

@@ -53,8 +53,8 @@
 **Key things to remember:**
 - This is a workshop, not a lecture. Your job is to guide, not to transfer knowledge.
 - Every use case demo ends with a human judgment moment — always close the AI suggestion loop visibly.
-- The hands-on (Block 9) is the most important 50 minutes. Prioritize it over everything if time runs short.
-- The Monday shortlist (Block 11) is the last thing participants hear. Keep it to 5 items maximum. Protect its simplicity.
+- The hands-on (Block 8) is the most important 50 minutes. Prioritize it over everything if time runs short.
+- The Monday shortlist (closing portion of Block 9) is the last substantive content participants hear. Keep it to 5 items maximum. Protect its simplicity.
 - Expect skepticism from senior developers. It is a feature, not a problem — acknowledge it and use it.
 
 ---

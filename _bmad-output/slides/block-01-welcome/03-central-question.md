@@ -1,11 +1,13 @@
 # The question on the table
 
-AI is already in your IDE, your CI pipeline, your code review tools.
+AI is already writing code in your IDE, flagging vulnerabilities in your pipeline, and summarising your pull requests.
+
+You did not decide that. It just happened.
 
 > **The question is not whether to use it.
 > It is whether you are driving — or just along for the ride.**
 
-Today you will:
-1. See it in action on real security workflows
-2. Try it yourself on a realistic exercise
-3. Decide what, if anything, you take back to your project
+By the end of today:
+- You will have seen it applied to real security workflows
+- You will have used it yourself on a realistic exercise
+- You will have an opinion — not someone else's

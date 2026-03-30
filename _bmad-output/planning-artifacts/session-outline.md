@@ -36,7 +36,7 @@ The workshop follows a single developer journey. The presenter says these transi
 |-----|----------------|------------|
 | 1 — Orient | "Before we get to tools — let's make sure we're speaking the same language about AI." | Block 2 |
 | 2 — Name the friction | "We know what the landscape looks like. Now — honestly — where does *your* current workflow fall short?" | Block 4 |
-| 3 — See the answer | "You named the friction. For the next 40 minutes, I'm going to show you exactly where AI shows up as an answer to what you just described." | Block 5 |
+| 3 — See the answer | "You named the friction. For the next 30 minutes, I'm going to show you exactly where AI shows up as an answer to what you just described." | Block 5 |
 | 4 — Do it yourself | "You've seen it. You've mapped it to your context. Now you're going to do it." | Block 8 |
 | 5 — Decide what changes | "You just used it. So — what does that mean for how you work from here?" | Block 9 |
 
@@ -54,16 +54,15 @@ The workshop follows a single developer journey. The presenter says these transi
 | 1 | Welcome & framing | Theory | 10 min | 0:10 |
 | 2 | AI & LLMs: what they actually are | Theory | 20 min | 0:30 |
 | 3 | SDLC → SSDLC: the security lens | Theory | 15 min | 0:45 |
-| 4 | Pain point discussion — Group work | Discussion | 10 min | 0:55 |
-| — | **BREAK** | Break | 10 min | 1:05 |
-| 5 | Use cases: AI in real SSDLC workflows | Theory + Demo | 40 min | 1:45 |
-| 6 | Use case identification — Group work | Discussion | 5 min | 1:50 |
-| 7 | Tools landscape overview | Theory | 25 min | 2:15 |
-| — | **BREAK** | Break | 10 min | 2:25 |
-| 8 | Hands-on: structured AI-assisted secure dev | Hands-on | 50 min | 3:15 |
-| 9 | The job of tomorrow | Theory | 15 min | 3:30 |
-| 10 | Wrap-up: what to do on Monday | Theory | 15 min | 3:45 |
-| 11 | Q&A | Open | 15 min | 4:00 |
+| 4 | Pain point discussion — Group work | Discussion | 20 min | 1:05 |
+| — | **BREAK** | Break | 10 min | 1:15 |
+| 5 | Use cases: AI in real SSDLC workflows | Theory + Demo | 30 min | 1:45 |
+| 6 | Use case identification — Group work | Discussion | 15 min | 2:00 |
+| 7 | Tools landscape overview | Theory | 25 min | 2:25 |
+| — | **BREAK** | Break | 10 min | 2:35 |
+| 8 | Hands-on: structured AI-assisted secure dev | Hands-on | 50 min | 3:25 |
+| 9 | The job of tomorrow & Monday actions | Theory | 20 min | 3:45 |
+| 10 | Q&A | Open | 15 min | 4:00 |
 
 ---
 
@@ -193,15 +192,16 @@ Content to include:
 
 ### Block 4 — Pain Point Discussion (Group Work)
 **Type:** Discussion
-**Duration:** 10 min
+**Duration:** 20 min
 **Role in the session:** Creates identification with the problem space before solutions are presented. Groups articulate what is currently broken or frustrating in their daily security workflow — things like slow code review, unreviewed dependencies, accidental secret commits, no threat modeling, security issues found only in production. This makes the use case demos in Block 5 land as answers to *their* specific problems, not as abstract tool showcases.
 
 **Format:**
 - Split into groups of 3–4
-- Each group answers 2 questions (displayed on screen):
+- Each group answers 3 questions (displayed on screen):
   1. "In your current projects, where does security feel most painful or neglected?"
   2. "If you could automate one security-related task in your workflow, what would it be?"
-- 6 minutes discussion, 4 minutes brief readout (one sentence per group, no synthesis needed yet)
+  3. "Where does security knowledge come from in your team — a go-to person, a defined process, or whoever happens to care?"
+- 12 minutes discussion, 8 minutes brief readout (one sentence per group per question, no synthesis needed yet)
 
 **Facilitator notes:**
 - Do not critique or correct answers — collect them
@@ -209,7 +209,7 @@ Content to include:
 - Common expected answers: code review is slow, dependency updates are ignored, secrets accidentally committed, no one does threat modeling, tests don't cover security cases
 - If a group is stuck: prompt with "What is the last security issue that actually caused you pain on a project?"
 
-➡️ **Transition (after break):** *"You named the friction. For the next 40 minutes, I'm going to show you exactly where AI shows up as an answer to what you just described."*
+➡️ **Transition (after break):** *"You named the friction. For the next 30 minutes, I'm going to show you exactly where AI shows up as an answer to what you just described."*
 
 ---
 
@@ -219,17 +219,17 @@ Content to include:
 
 ### Block 5 — Use Cases: AI in Real SSDLC Workflows
 **Type:** Theory + Live Demo
-**Duration:** 40 min
+**Duration:** 30 min
 **Role in the session:** The heart of the workshop. Shows — not just tells — how AI fits into the SSDLC. Directly connects to the pain points from Block 4. Creates identification: "I have this exact problem."
 
 > **Note on blocks 5 and 7:** These blocks are intentionally ordered this way. Block 5 shows AI in action through concrete use case stories — each one introduces its tool briefly before demonstrating it, so no prior catalogue knowledge is needed. Block 7 then gives the full tools map, which lands better because attendees already have reference points from the demos. The dependency runs forward, not backward.
 
 > **Running theme for blocks 5, 6, and 7:** Throughout these three blocks, continuously reinforce that AI is genuinely useful across a wide variety of purposes — not just one trick. Each use case, each group discussion moment, and each tool category should leave the audience with a richer picture of the breadth of what AI makes possible in secure development.
 
-**Structure:** 4–5 use cases, each lasting 6–8 minutes. Each use case follows the same pattern:
-1. The problem (1 min)
-2. How AI helps (2–3 min)
-3. Live or recorded demo (2–3 min)
+**Structure:** 5 use cases, each lasting ~5 minutes. Keep a strict pace — the goal is breadth of recognition, not depth. Each use case follows the same compact pattern:
+1. The problem (30 sec)
+2. How AI helps (1.5 min)
+3. Live or recorded demo (2 min)
 4. The human judgment moment — where the developer must still decide (30 sec)
 
 ---
@@ -299,19 +299,21 @@ Content to include:
 
 ### Block 6 — Use Case Identification (Group Work)
 **Type:** Discussion
-**Duration:** 5 min
-**Role in the session:** Fast transfer of ownership — groups pick one use case that resonates before moving to the tools overview. Keeps the inspiration momentum from Block 5 alive.
+**Duration:** 15 min
+**Role in the session:** Transfer of ownership — groups connect what they just saw to their real work, and surface practical blockers before the tools overview. Keeps the inspiration momentum from Block 5 alive.
 
-> **Running theme:** This is a moment to reinforce AI's breadth — encourage groups to pick *different* use cases from each other, so the readout demonstrates that AI is useful across many different situations, not just one.
+> **Running theme:** Encourage groups to pick *different* use cases from each other, so the readout demonstrates that AI is useful across many different situations, not just one.
 
 **Format:**
 - Same groups as Block 4
-- One question: "From what you just saw, pick one use case that maps to a real pain in your current work. Which one and why?"
-- 3 minutes discussion, 2 minutes one-sentence readout per group (no elaboration)
+- Two questions (displayed on screen):
+  1. "From what you just saw, pick one use case that maps to a real pain in your current work. Which one and why?"
+  2. "What would need to change — in your process, your team, or your tooling — to actually try this approach on your next sprint? Is there a blocker?"
+- 8 minutes discussion, 7 minutes readout — one sentence per question per group (keep it tight)
 
 **Facilitator notes:**
-- Keep the readout extremely fast — one sentence per group only
-- Prompt stuck groups: "Think about your last sprint. What slowed you down on the security side?"
+- On question 1: prompt stuck groups with "Think about your last sprint — what slowed you down on the security side?"
+- On question 2: this surfaces real objections (tool access, client policy, team buy-in) — collect them explicitly, they feed the Tools landscape block and Q&A
 - Note responses — they feed the hands-on exercise framing in Block 8
 
 ---
@@ -434,11 +436,23 @@ No prompt template is provided — writing the prompt is part of the exercise.
 
 #### Debrief 2 (5 min)
 
+**Slide: "Does your implementation handle these?"** — display the 6-row reflection table.
+
+Ask participants to self-assess both rounds against the six OWASP gaps that were intentionally omitted from `requirements.md`:
+
+| # | OWASP | Vulnerability |
+|---|-------|--------------|
+| 1 | A07 | Token TTL — does the reset token expire? |
+| 2 | A07 | Single-use invalidation — is the token voided after use? |
+| 3 | A04 | Rate limiting on `/reset-password/request` |
+| 4 | A01 | Email enumeration — does the endpoint leak whether an email exists? |
+| 5 | A09 | Audit logging for reset requests and confirmations |
+| 6 | A02 | Token storage — plaintext vs hashed |
+
 Full group discussion:
-- What did your agent flag that you hadn't thought of?
-- What did it miss?
-- How different is `app_2.py` from `app.py`?
-- What would it take to make this conversation part of every feature's definition-of-done?
+- Which gaps did Round 1 miss that Round 2 caught?
+- Which did your agent miss even in Round 2?
+- What would it take to make this checklist part of every feature's definition-of-done?
 
 ---
 
@@ -450,10 +464,10 @@ Full group discussion:
 
 ---
 
-### Block 9 — The Job of Tomorrow
+### Block 9 — The Job of Tomorrow & Monday Actions
 **Type:** Theory
-**Duration:** 15 min
-**Role in the session:** Elevates the conversation from tools to identity. "What does it mean to be a developer in 2026 and beyond, with AI as a constant collaborator in secure development?"
+**Duration:** 20 min
+**Role in the session:** Elevates the conversation from tools to identity, then closes with concrete actions. Moves from "what does this mean for your career?" directly to "what do you do on Monday?" — keeping the close tight and actionable.
 
 **Slides to cover:**
 
@@ -462,11 +476,6 @@ Content:
 - Portable practices: the AI-enhanced SSDLC habits you build work on any client project
 - Evidence generation: AI-assisted documentation and review trails help meet client compliance demands
 - Competitive differentiation: teams that deliver secure software faster win more engagements
-
-**Slide — What is already changing**
-Content:
-- AI is already embedded in: IDEs (Copilot), code review (Copilot Autofix, CodeRabbit), security scanning (SAST tools with AI explanation), CI/CD pipelines
-- The change is not coming — it is already here. The question is whether teams are shaping how it is used, or just reacting.
 
 **Slide — The new developer skill profile**
 Content (the skills that gain importance):
@@ -485,21 +494,6 @@ Content:
 - Teams that do not adopt structured AI workflows will see others deliver faster and with fewer security defects
 - Ungoverned AI adoption (vibe coding, raw prompts, no verification) creates new risks: insecure AI-generated code, compliance gaps, confidentiality leakage
 - The sweet spot: governed, structured, human-reviewed AI use — which is exactly what this workshop has been about
-
-**Key talking points:**
-- Open with the consultancy business case — make it personal and concrete before going abstract
-- Keep this hopeful and honest, not evangelical
-- Acknowledge that figuring out the right boundaries — what AI can and cannot do in a given client context — is itself a professional skill that takes time to develop
-- End with the question that opens the next block: "So — concretely — what do you take from today and apply on Monday?"
-
----
-
-### Block 10 — Wrap-Up: What to Do on Monday
-**Type:** Theory
-**Duration:** 15 min
-**Role in the session:** Closes with concrete, low-friction actions. Does not overwhelm. Sends participants home with 3–5 things they can actually do next week.
-
-**Slides to cover:**
 
 **Slide — Your Monday shortlist**
 Content:
@@ -524,12 +518,18 @@ Content: One sentence, large on screen:
 > "AI is a powerful junior colleague. Supervise it, structure your requests, verify its output, and keep the accountability where it belongs — with you."
 
 **Key talking points:**
+- Open with the consultancy business case — make it personal and concrete before going abstract
+- Keep this hopeful and honest, not evangelical
+- Acknowledge that figuring out the right boundaries is itself a professional skill that takes time to develop
+- Bridge identity to action explicitly: "So — concretely — what do you take from today and apply on Monday?"
 - Do not add more items to the Monday list during Q&A. Protect the simplicity.
 - Reiterate: "You do not have to implement everything. Pick one thing that connects to a real pain in your current project."
 
+➡️ **Transition:** *"That is a wrap. Before we close — questions, challenges, pushback. This is the time."*
+
 ---
 
-### Block 11 — Q&A
+### Block 10 — Q&A
 **Type:** Open
 **Duration:** 15 min
 
@@ -557,7 +557,7 @@ Content: One sentence, large on screen:
 - Group discussion slides display the question(s) clearly and include a readout timing note
 - Presenter notes are in this outline document, not in the slide files
 
-**Slide count:** ~53 slides across 11 blocks
+**Slide count:** ~52 slides across 10 blocks
 
 **Language:** English throughout
 

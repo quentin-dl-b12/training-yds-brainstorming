@@ -31,7 +31,7 @@ Attendees implement the same password reset feature twice — once with no const
 
 ## The repository
 
-**`quentin-dl-b12/training-ai-ssdlc-exo`**
+**`quentin-dl-b12/yds-training-exercises`**
 
 Attendees should either clone this in advance or receive a pre-cloned copy. The Python version is in the root folder.
 
@@ -92,6 +92,8 @@ A well-prompted AI agent in Round 2 will surface most of these. This is the exer
 
 ### Before the session
 
+Actually running the code is not required for the exercise. The focus is on the AI journey, not the final product. But in case the participants want to run the code, here are the setup steps:
+
 - Verify the repo is cloneable and the pip dependencies install cleanly (`fastapi`, `python-jose`, `uvicorn`, `pydantic`)
 - Run `python app.py` once to confirm the server starts on port 2626
 - Have a REST client ready (curl, Insomnia, or the FastAPI `/docs` Swagger UI at `http://localhost:2626/docs`)
@@ -104,7 +106,7 @@ The slides list the two-round structure with the repo URL and the four files to 
 
 ### Setup — 5 min
 
-Ask everyone to open the repo in their IDE. Ask them to read `requirements.md` first.
+Ask everyone to open the repo in their IDE. Ask them to read the README and `requirements.md` first.
 
 While they do this, set the frame out loud:
 
@@ -143,7 +145,7 @@ You want a mix of "yes", "no", and "I didn't think about that." That mix is the 
 
 ### Round 2 — Spec-Driven — 20 min
 
-Attendees switch to `app_2.py`. Before writing any code, they must open a conversation with their AI agent and ask it to review `requirements.md` and identify what is missing from a security perspective.
+Attendees switch to `app_2.py`. Before writing any code, they must open a conversation with their AI agent and ask it to review `requirements.md` and identify what is missing from a security perspective. Then, instruct them to have a conversation with their agent to try and uncover potential security gaps before they start coding.
 
 **There is no prompt template.** Writing the prompt is part of the exercise. This is intentional — in the real world, developers who think spec-first also have to know what to ask.
 
